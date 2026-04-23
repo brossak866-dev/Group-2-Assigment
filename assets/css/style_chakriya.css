@@ -40,6 +40,7 @@ body{
 
 .size{
     text-decoration: line-through !important;
+    color: gray !important;
     
 }
 
