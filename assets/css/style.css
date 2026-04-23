@@ -28,6 +28,8 @@
     color: lightpink;
     text-decoration: none;
     font-size: 30px;
+    display: flex;
+    align-items: center;
 }
 .nav-link{
     color: white;
@@ -59,9 +61,6 @@
     list-style-type: none;
     display: flex;
 }
-.logo{
-  margin-top: 18px;
-}
 .dropdown{
     width: 100px;
     position:absolute;
@@ -83,6 +82,10 @@
     background-color: lightgray;
     transition: 0.5s;
     color: black;
+}
+.logo{
+  width: 150px;
+  height: 80px;
 }
 
 .icon{
