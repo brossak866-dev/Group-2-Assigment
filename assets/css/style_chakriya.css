@@ -1,314 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
-.navbar{
+
+body{
+    font-family: "Kantumruy Pro", sans-serif !important;
+}
+.banner{
     width: 100%;
-    height: 60px;
-    background-color: #1f2937;
-    position: fixed;
-    z-index: 1000;
-}
-.testimonial-text{
-  font-family: "Kantumruy Pro","Poppins";
-}
-.container{
-    width: 1200px;
-    margin: auto;
-}
-.navbar .container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 60px;
-    font-family: "Poppins";
-}
-.navbar-brand{
-    color: lightpink;
-    text-decoration: none;
-    font-size: 30px;
-}
-.nav-link{
-    color: white;
-    text-decoration: none;
-    padding: 0 20px;
-    text-underline-offset: 0;
-    font-size: 20px;
-}
-.nav-link:hover{
-    text-decoration: underline;
-    text-decoration-thickness: 3px;
-    text-underline-offset: 20px;
-    text-decoration-color: #cbeef3;
-}
-.nav-link-1{
-    color: white;
-    text-decoration: none;
-    padding: 0 20px;
-    text-underline-offset: 0;
-    font-size: 20px;
-}
-.nav-link-.nav-link-1{
-    text-decoration: underline;
-    text-decoration-thickness: 3px;
-    text-underline-offset: 20px;
-    text-decoration-color: #cbeef3;
-}
-.navbar-nav{
-    list-style-type: none;
-    display: flex;
-}
-.logo{
-  margin-top: 18px;
-}
-.dropdown{
-    width: 100px;
-    position:absolute;
-    display: none;
-}
-.right{
-  display: flex;
-  align-items: center;
-}
-.navbar-cart{
-    border: none;
-    text-decoration: none;
-    padding: 5px 25px;
-    color: white;
-    font-size: 18px;
-    border-radius: 30px;
-}
-.navbar-cart:hover{
-    background-color: lightgray;
-    transition: 0.5s;
-    color: black;
 }
 
-.icon{
-  padding-right: 5px;
+.sec-1 .card{
+    border-radius: 15px 15px 0 0;
+
 }
-.sec-1{
-    width: 100%;
-    padding: 50px 0;
-}
-.sec-1 .container{
-    width: 1200px;
-    /* height: 500px; */
-    margin: auto;
-    /* background-color: #008080af; */
-}
-.hero-banner{
-    width: 100%;
-    height: 500px;
-    /* background-color: teal; */
-    margin-bottom: 30px;
-    margin-top: 50px;
-}
-.hero-banner img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-.menu{
-    width: 100%;
-    /* height: 80px; */
-    background-color: #ced4da;
-    padding: 10px 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 50px;
-    margin-bottom: 30px;
-    border-radius: 20px;
-}
-.menu h2{
-    font-size: 30px;
-    color: black;
-}
-.menu a{
-    text-decoration: none;
-}
-.menu .search{
-    width: 300px;
-    /* height: 40px; */
-    font-size: 18px;
-    color: white;
-    background-color: transparent;
-    border: 1px solid black;
-    outline: none;
-    padding: 10px 20px;
-    border-radius: 20px;
-}
-.menu .fa-magnifying-glass{
-    font-size: 20px;
-    color: black;
-    margin-left: 10px;
-}
-.menu p{
-    font-size: 20px;
-    color: black;
-}
-.menu .dropdown{
-    position: relative;
-}
-.menu .dropdown-menu{
-    list-style-type: none;
-    width: 150px;
-    height: 150px;
-    background-color: #edf2f4;
-    position: absolute;
-    top: 150%;
-    right : 0;
-    border-radius: 5px;
-    padding: 10px 25px;
-    transition: 0.5s;
-    opacity: 0;
-    visibility: hidden;
+.sec-1 .card img{
+    border-radius: 15px 15px 0 0;
 
 }
 
-.menu .dropdown:hover .dropdown-menu{
-    top: 120%;
-    opacity: 1;
-    visibility: visible;
-}
-.menu .dropdown-menu li{
-    width: 100px;
-    height: 30px;
-    background-color: #cdcdcd85;
-    margin-top: 10px;
-    padding: 5px;
-    text-align: center;
-}
-.menu .dropdown-menu a{
-    color: black;
-}
-.menu .dropdown-menu li:hover{
-    background-color: #adb5bd;
-}
-.menu .dropdown-menu a:hover{
-    text-decoration: underline;
-}
-.sec-1 h1{
-    text-align: center;
-    margin-bottom: 50px;
-    font-size: 40px;
-}
-
-.sec-1 .row{
-    display: flex ;
-    margin-left: -20px ;
-    margin-right: -20px;
-    row-gap: 80px;
-    flex-wrap: wrap;
-
-}
-
-.col-1{
-    width: 33.3333%;
-    /* background-color: teal; */
-    border-radius: 10px;
-    padding: 20px;
-    
-}
-
-.card{
-    width:100% ;
-    height: 100%;
-    /* background-color: whitesmoke; */
-    border-radius: 10px;
-    box-shadow: 1px 1px 8px gray;
-
-}
-
-.card-img{
-    width: 100%;
-    height: 75%;
-    object-fit: cover;
-    border-radius: 10px 10px 0 0;
-    transition: 0.7s;
-}
-.card-body{
-    padding: 5px 10px;
-    position: relative;
-}
-.card-body p{
-    font-size: 15px;
-}
-.btn-group {
-    position: absolute;
-    bottom: -30px;
-    right:10px ;
-
-}
-.btn-group a{
-    text-decoration: none;
-    
-}
-.price{
-    display: flex;
-    gap: 10px;
-}
-.price span{
-    text-decoration: line-through;
+.sec-1 .dis{
     color: red;
+    text-decoration: line-through;
 }
-.fa-solid{
-    font-size: 13px;
+.sec-1 .badge{
+    top: 3%;
+    left: 115%;
+    font-size: 10px !important;
+    font-weight: normal !important;
+    padding: 4px 5px;
 }
 
-.btn-cart{
-    width: 100px;
-    height: 50px;
-    /* background-color: #669bbc; */
-    color: #219ebc;
-    padding: 5px;
-    border-radius: 10px;   
+.sec-1 .just-in{
+    top: 2%;
+    left: 5%;
+}
+
+.size{
+    text-decoration: line-through !important;
+    color: gray !important;
+    
+}
+
+.img-card{
     transition: 0.7s;
-    border: 2px solid #219ebc;
 }
 
-.btn-buy{
-    width: 100px;
-    height: 50px;
-    /* background-color: green; */
-    color: orange;
-    padding: 5px;
-    border-radius: 10px;
-    margin-left: 10px;
-    transition: 0.7s;
-    border: 2px dashed ;
-}
-.btn-cart:hover{
-    background-color: #219ebc;
-    color: black;
-}
-.btn-buy:hover{
-    background-color: #e36414;
-    color: black;
-}
-.card-img:hover{
-    transform: scale(1.03,1.03);
-    box-shadow: 1px 1px 5px #001d3d;
+.sec-1 .img-card:hover{
+    transform: scale(1.03);
 }
 
-.btn-sm{
-    width: 150px;
-    background-color: #5fb514eb;
+.ass-img{
+    width: 80% !important;
+    height: 80% !important;
     margin: auto;
-    margin-top: 40px;
-    padding: 5px 10px;
-    border-radius: 5px;
 }
-.btn-sm a{
-    text-decoration: none;
-    font-size: 20px;
-    color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-
