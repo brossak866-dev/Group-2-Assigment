@@ -10,3 +10,139 @@ body {
 h2 {
   font-weight: 600;
 }
+.footer {
+  background-color: #111827; /* gray-900 */
+  color: white;
+  padding-top: 64px;
+  padding-bottom: 32px;
+  font-family: sans-serif;
+}
+
+/* Container */
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+/* Columns layout */
+.footer-columns {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px;
+  margin-bottom: 48px;
+}
+
+@media (min-width: 768px) {
+  .footer-columns {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* Logo & description */
+.footer-logo {
+  font-size: 40px;
+  font-family: 'Poppins', cursive;
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding-left: 40px;
+}
+
+.footer-description {
+  color: #9ca3af; /* gray-400 */
+  margin-bottom: 24px;
+  font-size: 1rem;
+}
+
+/* Social icons */
+.footer-socials a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #1f2937; /* gray-800 */
+  color: white;
+  border-radius: 50%;
+  margin-right: 12px;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.footer-socials a:hover {
+  background-color: #3b82f6; /* primary */
+}
+
+/* Footer links */
+.footer-links h3 {
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 12px;
+}
+
+.footer-links a {
+  color: #9ca3af;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: white;
+}
+
+/* Footer bottom */
+.footer-bottom {
+  border-top: 1px solid #1f2937; /* gray-800 */
+  padding-top: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: center;
+}
+
+.footer-bottom p {
+  color: #9ca3af;
+  font-size: 0.875rem;
+  margin: 0;
+}
+
+.footer-policies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
+
+.footer-policies a {
+  color: #9ca3af;
+  font-size: 0.875rem;
+  text-decoration: none;
+}
+
+.footer-policies a:hover {
+  color: white;
+}
+
+.footer-payments {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  color: #9ca3af;
+  font-size: 0.875rem;
+}
+
+.footer-payments i {
+  font-size: 1.5rem;
+}
